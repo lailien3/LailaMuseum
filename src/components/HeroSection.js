@@ -4,14 +4,11 @@ import { Button } from './Button';
 import './HeroSection.css';
 import videoBG from '../videos/videoBG.mp4';
 
-
 function HeroSection() {
   return (
     <div className='hero-container'>
-
       <video src={videoBG} autoPlay loop muted/>
-     
-     <h1>• laila • laila • laila •</h1>
+      <h1>• laila • laila • laila •</h1>
       <p>this is my video</p>
       <div className='hero-btns'>
         <Button
