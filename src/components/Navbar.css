@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navbar-container {
@@ -27,13 +28,11 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  font: Times-Roman;
 }
 
-.fa-ghost {
+.fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
-  color: #fff;
 }
 
 .nav-menu {
@@ -49,7 +48,6 @@
 
 .nav-item {
   height: 80px;
-  margin-bottom: 20px;
 }
 
 .nav-links {

@@ -2,19 +2,14 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-// import ReactPlayer from 'react-player'
+import videoBG from '../videos/videoBG.mp4';
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
 
-      <video autoPlay muted loop id="myVideo">
-        <source src="video-3.mp4" type="video/mp4"/>
-      </video>
-
-      {/* <ReactPlayer url={'/videos/video-1.mp4'} controls={true} /> */}
-
-      {/* <video src='/videos/video-3.mp4' autoPlay loop muted/> */}
+      <video src={videoBG} autoPlay loop muted/>
      
      <h1>• laila • laila • laila •</h1>
       <p>this is my video</p>
