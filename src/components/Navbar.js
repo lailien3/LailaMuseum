@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import DateTime from './pages/DateTime';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -26,6 +27,7 @@ function Navbar() {
 
   return (
     <>
+    <DateTime/>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
