@@ -6,11 +6,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import DateTime from './components/DateTime';
 
 function App() {
   return (
     <>
       <Router>
+        <DateTime />
         <Navbar />
         
         <Routes>
