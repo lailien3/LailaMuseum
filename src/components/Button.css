@@ -12,7 +12,8 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: rgb(213, 194, 232);
+    /* opacity: 0.2; */
     border: 1px solid var(--primary);
 }
 

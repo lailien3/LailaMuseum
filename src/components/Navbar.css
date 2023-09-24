@@ -1,8 +1,3 @@
-body {
-  /* Add this to make the sticky navbar work */
-  position: relative;
-}
-
 .navbar {
   background-color: #3c6a7f;
   height: 80px;
@@ -11,14 +6,9 @@ body {
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top: 0;
+  top: 0px;
   z-index: 999;
-  transition: background-color 0.3s ease; /* Add a transition for smooth color change */
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.navbar-sticky {
-  background-color: #222; /* Change to the desired background color when sticky */
 }
 
 .navbar-container {
