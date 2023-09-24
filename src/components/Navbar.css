@@ -1,5 +1,10 @@
+body {
+  /* Add this to make the sticky navbar work */
+  position: relative;
+}
+
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background-color: #3c6a7f;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -8,7 +13,12 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: background-color 0.3s ease; /* Add a transition for smooth color change */
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar-sticky {
+  background-color: #222; /* Change to the desired background color when sticky */
 }
 
 .navbar-container {
@@ -94,7 +104,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #808291;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -109,8 +119,8 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    background-color: #e2c1d6;
+    color: #808291;
     border-radius: 0;
   }
 
@@ -152,8 +162,8 @@
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background-color: #e2c1d6;
+    color: #808291;
     transition: 250ms;
   }
 }

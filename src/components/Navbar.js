@@ -7,6 +7,7 @@ import DateTime from './pages/DateTime';
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [isSticky, setIsSticky] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -25,12 +26,27 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
     <DateTime/>
       <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <div className={`navbar-container ${isSticky ? 'navbar-sticky' : ''}`}>          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Laila's Website
             <i class='fab fa-typo3' />
           </Link>
