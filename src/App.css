@@ -20,7 +20,7 @@
 }
 
 .art {
-  background-image: url('/public/images/artBG.jpg');
+  background-image: url('/public/images/articon.jpg');
   background-position: center ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 }
 
 .cats {
-  background-image: url('/public/images/catsBG.jpg');
+  background-image: url('/public/images/catsicon.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 
 .code {
-  background-image: url('/public/images/codeBG.jpg');
+  background-image: url('/public/images/codeicon.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 }
 
 .game {
-  background-image: url('/public/images/plantsBG.jpg');
+  background-image: url('/public/images/gameicon.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,7 +56,16 @@
 }
 
 .plants {
-  background-image: url('/public/images/plantsBG.jpg');
+  background-image: url('/public/images/planticon.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('/public/images/signupicon.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
