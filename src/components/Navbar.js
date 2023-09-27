@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import DateTime from './DateTime';
+import videoNB from '../videos/videoNB.mp4';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,6 +28,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
+      <video src={videoNB} autoPlay loop muted/>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                   Laila's Website

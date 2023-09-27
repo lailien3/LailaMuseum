@@ -7,6 +7,7 @@ import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import DateTime from './components/DateTime';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
         
+        {/* <Footer/> */}
       </Router>
     </>
   );
