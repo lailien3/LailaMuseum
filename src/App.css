@@ -6,8 +6,11 @@
 }
 
 .home,
-.services,
-.products,
+.art,
+.cats,
+.code,
+.plants,
+.game
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,8 +19,17 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/public/images/img-2.jpg');
+.art {
+  background-image: url('/public/images/artBG.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.cats {
+  background-image: url('/public/images/catsBG.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,36 +37,50 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/public/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('/public/images/img-8.jpg');
+.code {
+  background-image: url('/public/images/codeBG.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
+
+.game {
+  background-image: url('/public/images/plantsBG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.plants {
+  background-image: url('/public/images/plantsBG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+
+
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #8a9a94;
+  background: #E5A0AA;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #739196;
+  background: #F0BCB7;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #57808e;
+  background: #CBA1A6;
 }

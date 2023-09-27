@@ -10,7 +10,6 @@ export const DateTime = () => {
         return function cleanup() {
             clearInterval(timer)
         }
-    
     });
 
     return(
