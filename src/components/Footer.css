@@ -42,6 +42,8 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid #fff;
+    opacity: 0.8;
+    background-color: aliceblue;
   }
   
   .footer-links {

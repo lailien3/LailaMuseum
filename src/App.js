@@ -17,7 +17,6 @@ function App() {
       <Router>
         <DateTime />
         <Navbar />
-        
         <Routes>
           <Route path='/' exact element={<Home/>} />
           <Route path='/art' element={<Art/>} />

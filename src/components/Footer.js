@@ -8,18 +8,26 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          join my newsletter for more cat pics
+          • join my newsletter for weekly cat pics •
         </p>
         <p className='footer-subscription-text'>
-          you can unsubscribe at any time
+          • you can never unsubscribe •
         </p>
         <div className='input-areas'>
           <form>
+          <input
+              className='footer-input'
+              name='name'
+              type='name'
+              placeholder='Your Name'
+              style={{ height: '2rem' }}
+            />
             <input
               className='footer-input'
               name='email'
               type='email'
               placeholder='Your Email'
+              style={{ height: '2rem' }}
             />
             <Button buttonStyle='btn--outline'>subscribe</Button>
           </form>

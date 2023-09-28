@@ -105,11 +105,12 @@ video {
   }
 
   .nav-menu.active {
-    background: #808291;
+    background: #99B9BF;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    opacity: 0.8;
   }
 
   .nav-links {
@@ -120,8 +121,8 @@ video {
   }
 
   .nav-links:hover {
-    background-color: #e2c1d6;
-    color: #808291;
+    background-color: #7293A8;
+    color: #fff;
     border-radius: 0;
   }
 

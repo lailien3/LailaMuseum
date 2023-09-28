@@ -73,11 +73,7 @@
   font-size: 100px;
 }
 
-
-
-
-
-
+/* scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -93,3 +89,4 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #CBA1A6;
 }
+/* ------------ */
