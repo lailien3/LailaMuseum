@@ -10,9 +10,6 @@ function Footer() {
         <p className='footer-subscription-heading'>
           • join my newsletter for weekly cat pics •
         </p>
-        <p className='footer-subscription-text'>
-          • you can never unsubscribe •
-        </p>
         <div className='input-areas'>
           <form>
           <input
@@ -31,6 +28,9 @@ function Footer() {
             />
             <Button buttonStyle='btn--outline'>subscribe</Button>
           </form>
+          <p className='footer-subscription-text'>
+          • you can never unsubscribe •
+        </p>
         </div>
       </section>
       <div class='footer-links'>
@@ -58,9 +58,12 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>s o c i a l s</h2>
-            <Link to='https://www.linkedin.com/in/lailaaleissa/' target='_blank'>linkedin</Link>
-            <Link to='https://www.instagram.com/lailien.3/' target='_blank'>instagram</Link>
-            <Link to='https://www.youtube.com/channel/UCQiLMZc0oaYF9sL0Hz3tZzQ' target='_blank'>youtube</Link>
+            <Link to='https://www.linkedin.com/in/lailaaleissa/' target='_blank'>l i n k e d i n</Link>
+            <Link to='https://www.instagram.com/lailien.3/' target='_blank'>i n s t a g r a m</Link>
+            <Link to='https://www.youtube.com/channel/UCQiLMZc0oaYF9sL0Hz3tZzQ' target='_blank'>y o u t u b e</Link>
+            <Link to='https://www.facebook.com/laila.aleissa.5/' target='_blank'>f a c e b o o k</Link>
+            <Link to='https://www.tiktok.com/@lailien_3' target='_blank'>t i k t o k</Link>
+            <Link to='https://www.pinterest.co.uk/lailien_3/' target='_blank'>p i n t e r e s t</Link>
           </div>
         </div>
       </div>
@@ -74,22 +77,25 @@ function Footer() {
           </div>
           <small class='website-rights'>laila © 2023</small>
           <div class='social-icons'>
+          {/* ------------------------------------ */}
           <Link
-              class='social-icon-link twitter'
+              class='social-icon-link linkedin'
               to='https://www.linkedin.com/in/lailaaleissa/'
               target='_blank'
               aria-label='LinkedIn'
             >
             <i class='fab fa-linkedin' />
             </Link>
+          {/* ------------------------------------ */}
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/lailien.3/'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>  
+            </Link> 
+          {/* ------------------------------------ */}
             <Link
               class='social-icon-link youtube'
               to='https://www.youtube.com/channel/UCQiLMZc0oaYF9sL0Hz3tZzQ'
@@ -98,15 +104,34 @@ function Footer() {
             >
               <i class='fab fa-youtube' />
             </Link>
+          {/* ------------------------------------ */}
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/laila.aleissa.5/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
             </Link>
-   
+          {/* ------------------------------------ */}
+            <Link
+              class='social-icon-link tiktok'
+              to='https://www.tiktok.com/@lailien_3'
+              target='_blank'
+              aria-label='Tiktok'
+            >
+              <i class='fab fa-tiktok' />
+            </Link>
+          {/* ------------------------------------ */}
+            <Link
+              class='social-icon-link pinterest'
+              to='https://www.pinterest.co.uk/lailien_3/'
+              target='_blank'
+              aria-label='Pinterest'
+            >
+              <i class='fab fa-pinterest' />
+            </Link>
+          {/* ------------------------------------ */}
           </div>
         </div>
       </section>
