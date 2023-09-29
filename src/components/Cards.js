@@ -36,11 +36,6 @@ function Cards() {
               text='... at my game'
               path='/game'
             />
-            {/* <CardItem
-              src='images/signupicon.jpg'
-              text='sign-up'
-              path='/sign-up'
-            /> */}
           </ul>
         </div>
       </div>
