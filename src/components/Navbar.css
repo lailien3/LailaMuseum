@@ -33,7 +33,7 @@ video {
   cursor: pointer;
 }
 
-.fa-layer-group, .fa-arrow-left {
+.fa-door-open, .fa-door-closed {
   color: #fff;
   opacity: 0.6;
   text-align: center;

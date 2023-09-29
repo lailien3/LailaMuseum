@@ -1,0 +1,304 @@
+.art-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .catskull {
+    width: 47%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+ 
+  .mushroom {
+    width: 51%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+  
+  .cactus {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+ 
+  .mountain {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .bigcat {
+    width: 35%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .money {
+    width: 46%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .eye1 {
+    width: 45%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .hand1 {
+    width: 57%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .shell {
+    width: 40%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .nude1 {
+    width: 35%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .nude2 {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .eye2 {
+    width: 31%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .leg {
+    width: 20%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .forest {
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .anatomy {
+    width: 45%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .nude3 {
+    width: 31%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .cup {
+    width: 35%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .popcorn1 {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .mandala1 {
+    width: 35%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .hand2 {
+    width: 49%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .nude4 {
+    width: 38%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .oldlady {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .keys {
+    width: 44%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .bubbles {
+    width: 28%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .starrynight {
+    width: 54%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .peaches {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .ripples {
+    width: 40%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .koifish {
+    width: 25%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .mountain1 {
+    width: 50%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .mandala2 {
+    width: 40%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .abalone {
+    width: 60%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .mandala3 {
+    width: 38%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .faces {
+    width: 48%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .popcorn2 {
+    width: 50%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .mandala4 {
+    width: 29%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .face {
+    width: 39%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .hand3 {
+    width: 28%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .trippysideprofile {
+    width: 50%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .skull1 {
+    width: 48%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .skull2 {
+    width: 53%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .skull3 {
+    width: 45%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .lips {
+    width: 23%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .mountain2 {
+    width: 43%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .highlow {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }
+
+  .sunmoon {
+    width: 49%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .mandala5 {
+    width: 30%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .mandala6 {
+    width: 50%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+    border-radius: 50%;
+  }
+
+  .nude5 {
+    width: 45%;
+    object-fit: cover;
+    border: 2px solid #CBA1A6;
+  }

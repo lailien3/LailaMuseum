@@ -6,71 +6,66 @@
 }
 
 .home,
-.art,
 .cats,
+.art,
 .code,
 .plants,
-.game
+.game,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: 700px;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
-.art {
-  background-image: url('/public/images/articon.jpg');
-  background-position: center ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .cats {
   background-image: url('/public/images/catsicon.jpg');
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #fbeae3;
   font-size: 100px;
+  background-size: 80% ;
+}
+
+.art {
+  background-image: url('/public/images/articon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fbeae3;
+  font-size: 100px;
+  background-size: 78% ;
 }
 
 .code {
   background-image: url('/public/images/codeicon.jpg');
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #fbeae3;
   font-size: 100px;
-}
-
-.game {
-  background-image: url('/public/images/gameicon.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  background-size: 60% ;
 }
 
 .plants {
   background-image: url('/public/images/planticon.jpg');
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #fbeae3;
   font-size: 100px;
+  background-size: 63% ;
+}
+
+.game {
+  background-image: url('/public/images/gameicon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fbeae3;
+  font-size: 100px;
+  background-size: 80% ;
 }
 
 .sign-up {
   background-image: url('/public/images/signupicon.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 /* scroll bar */

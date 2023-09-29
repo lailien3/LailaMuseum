@@ -15,11 +15,8 @@ function Navbar() {
       <nav className='navbar'>
         <video src={videoNB} autoPlay loop muted />
         <div className='navbar-container'>
-          {/* <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <div className='center-logo'>Laila's Website</div>
-          </Link> */}
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-arrow-left' : 'fas fa-layer-group'} />
+            <i className={click ? 'fas fa-door-open' : 'fas fa-door-closed'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
