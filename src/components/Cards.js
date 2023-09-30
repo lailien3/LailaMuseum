@@ -32,6 +32,11 @@ function Cards() {
               path='/plants'
             />
             <CardItem
+              src='images/planticon.jpg'
+              text='... at my crystals'
+              path='/crystals'
+            />
+            <CardItem
               src='images/gameicon.jpg'
               text='... at my game'
               path='/game'

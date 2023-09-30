@@ -83,3 +83,7 @@ video {
   color: #fff;
   transition: all 0.2s ease-out;
 }
+
+.nav-item {
+  height: 11%;
+}
