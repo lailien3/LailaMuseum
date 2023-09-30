@@ -10,6 +10,7 @@ import Code from './components/pages/Code';
 import Game from './components/pages/Game';
 import SignUp from './components/pages/SignUp';
 import DateTime from './components/DateTime';
+import Crystals from './components/pages/Crystals';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/cats' element={<Cats/>} />
           <Route path='/plants' element={<Plants/>} />
           <Route path='/code' element={<Code/>} />
+          <Route path='/crystals' element={<Crystals/>} />
           <Route path='/game' element={<Game/>} />
           <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
