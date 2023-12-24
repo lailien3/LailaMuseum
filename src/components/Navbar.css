@@ -59,7 +59,7 @@ video {
   background: #80b1b9;
   left: 0;
   opacity: 1;
-  transition: all 0.5s ease;
+  transition: all 1.3s ease;
   z-index: 1;
   opacity: 0.8;
   display: flex;
@@ -81,7 +81,7 @@ video {
 .nav-links:hover {
   background-color: #7293A8;
   color: #fff;
-  transition: all 0.2s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .nav-item {
