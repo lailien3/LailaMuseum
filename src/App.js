@@ -14,7 +14,6 @@ import Crystals from './components/pages/Crystals';
 
 function App() {
   return (
-    <>
       <Router>
         <DateTime />
         <Navbar />
@@ -30,7 +29,6 @@ function App() {
         </Routes>
 
       </Router>
-    </>
   );
 }
 

@@ -33,30 +33,30 @@ function Footer() {
         </p>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>a b o u t</h2>
             <Link to='/sign-up'>education</Link>
             <Link to='/'>experience</Link>
             <Link to='/'>hobbies</Link>
             <Link to='/'>xxx</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>c o n t a c t</h2>
             <Link to='/'>email</Link>
             <Link to='/'>number</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>x x x</h2>
             <Link to='/'>xxx</Link>
             <Link to='/'>xxx</Link>
             <Link to='/'>xxx</Link>
             <Link to='/'>xxx</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>s o c i a l s</h2>
             <Link to='https://www.linkedin.com/in/lailaaleissa/' target='_blank'>l i n k e d i n</Link>
             <Link to='https://www.instagram.com/lailien.3/' target='_blank'>i n s t a g r a m</Link>
@@ -67,15 +67,15 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               laila
             </Link>
           </div>
-          <small class='website-rights'>laila © 2023</small>
-          <div class='social-icons'>
+          <small className='website-rights'>laila © 2023</small>
+          <div className='social-icons'>
           {/* ------------------------------------ */}
           <Link
               class='social-icon-link linkedin'
@@ -83,7 +83,7 @@ function Footer() {
               target='_blank'
               aria-label='LinkedIn'
             >
-            <i class='fab fa-linkedin' />
+            <i className='fab fa-linkedin' />
             </Link>
           {/* ------------------------------------ */}
             <Link
@@ -92,7 +92,7 @@ function Footer() {
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link> 
           {/* ------------------------------------ */}
             <Link
@@ -101,7 +101,7 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
           {/* ------------------------------------ */}
             <Link
@@ -110,7 +110,7 @@ function Footer() {
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
           {/* ------------------------------------ */}
             <Link
@@ -119,7 +119,7 @@ function Footer() {
               target='_blank'
               aria-label='Tiktok'
             >
-              <i class='fab fa-tiktok' />
+              <i className='fab fa-tiktok' />
             </Link>
           {/* ------------------------------------ */}
             <Link
@@ -128,7 +128,7 @@ function Footer() {
               target='_blank'
               aria-label='Pinterest'
             >
-              <i class='fab fa-pinterest' />
+              <i className='fab fa-pinterest' />
             </Link>
           {/* ------------------------------------ */}
           </div>

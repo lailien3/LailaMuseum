@@ -1,6 +1,7 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
@@ -31,3 +32,11 @@ export const Button = ({
     </Link>
   );
 };
+
+Button.propTypes = {
+  children: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  onClick: PropTypes.string.isRequired,
+  buttonStyle: PropTypes.string.isRequired,
+  buttonSize: PropTypes.string.isRequired,
+}
