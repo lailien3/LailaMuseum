@@ -11,11 +11,11 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   return (
-    <>
+    // <>
       <nav className='navbar'>
         <video src={videoNB} autoPlay loop muted />
         <div className='navbar-container'>
-          <div className='menu-icon' onClick={handleClick}>
+          <div className='menu-icon' onClick={handleClick} role="button">
             <i className={click ? 'fas fa-door-open' : 'fas fa-door-closed'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -62,7 +62,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-    </>
+    // </>
   );
 }
 

@@ -3,10 +3,10 @@ import './DateTime.css'
 
 export const DateTime = () => {
 
-    var [date,setDate] = useState(new Date());
+    let [date,setDate] = useState(new Date());
     
     useEffect(() => {
-        var timer = setInterval(()=>setDate(new Date()), 1000 )
+        let timer = setInterval(()=>setDate(new Date()), 1000 )
         return function cleanup() {
             clearInterval(timer)
         }
