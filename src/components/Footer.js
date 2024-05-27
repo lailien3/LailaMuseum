@@ -25,19 +25,19 @@ function Footer() {
               type='email'
               placeholder='Your Email'
               style={{ height: '2rem' }}
-            />
-            <Button buttonStyle='btn--outline'>subscribe</Button>
+            />           
           </form>
           <p className='footer-subscription-text'>
           • you can never unsubscribe •
         </p>
+        <Button buttonStyle='btn--outline'>subscribe</Button>
         </div>
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>a b o u t</h2>
-            <Link to='/sign-up'>education</Link>
+            <Link to='/'>education</Link>
             <Link to='/'>experience</Link>
             <Link to='/'>hobbies</Link>
             <Link to='/'>xxx</Link>
@@ -74,7 +74,7 @@ function Footer() {
               laila
             </Link>
           </div>
-          <small className='website-rights'>laila © 2023</small>
+          <small className='website-rights'>laila © 2024</small>
           <div className='social-icons'>
           {/* ------------------------------------ */}
           <Link
